@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Admission Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>General Admission Registration</h1>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <h2>Personal Information</h2>
+            <form id="personalInfoForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" placeholder="Enter your phone" required>
+
+                <label for="contactDetails">Contact Details:</label>
+                <textarea id="contactDetails" placeholder="Enter your contact details" rows="4" required></textarea>
+
+                <label>Do you require parking?</label>
+                <select id="parking">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+
+                <label>What is your room preference?</label>
+                <select id="roomPreference">
+                    <option value="Single">Single</option>
+                    <option value="Double">Double</option>
+                    <option value="NoRoomNeeded">No Room Needed</option>
+                </select>
+            </form>
+        </div>
+        <div class="right-section">
+            <h2>Special Requests and Preferences</h2>
+            <form id="specialRequestsForm">
+                <label>Do you have dietary restrictions?</label>
+                <input type="radio" id="dietaryYes" name="dietary" value="Yes"> Yes
+                <input type="radio" id="dietaryNo" name="dietary" value="No"> No
+
+                <div class="checkbox-options" id="dietaryDetails">
+                    <label for="dietaryText">Dietary Details (if yes, please specify):</label>
+                    <textarea id="dietaryText" placeholder="Enter dietary details" rows="3"></textarea>
+                </div>
+
+                <label>Do you have any allergies?</label>
+                <input type="radio" id="allergyYes" name="allergy" value="Yes"> Yes
+                <input type="radio" id="allergyNo" name="allergy" value="No"> No
+
+                <div class="checkbox-options" id="allergyDetails">
+                    <label for="allergyText">Allergy Details (if yes, please specify):</label>
+                    <textarea id="allergyText" placeholder="Enter allergy details" rows="3"></textarea>
+                </div>
+
+                <label>Activities You Will Attend:</label>
+                <input type="checkbox" id="awardFunction" name="activities" value="Award Function"> Award Function
+                <input type="checkbox" id="marriageFn" name="activities" value="Marriage F-n"> Marriage F-n
+                <input type="checkbox" id="leadershipSeminar" name="activities" value="Leadership Seminar"> Leadership Seminar
+
+                <label>Do you want to hire a guide to visit famous places in the city?</label>
+                <input type="radio" id="guideYes" name="guide" value="Yes"> Yes
+                <input type="radio" id="guideNo" name="guide" value="No"> No
+            </form>
+        </div>
+    </div>
+    <button class="submit-button">Submit</button>
+</body>
+</html>
 
