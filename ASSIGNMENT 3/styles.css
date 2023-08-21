@@ -1,0 +1,103 @@
+/* Your CSS styles go here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c39ea0; /* Slightly lighter background color */
+    text-align: center;
+    color: #ff6b6b; /* Orange and pink text color */
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c39ea0; /* Slightly lighter background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 40px; /* Larger font size for "Calculator" */
+    text-transform: uppercase; /* Uppercase text */
+    color: #fa255e; /* Orange and pink color for headings */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.vertical-input {
+    margin-bottom: 10px;
+}
+
+label {
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fa255e; /* Orange and pink text color */
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f8e5e5; /* Light yellow input boxes */
+    color: #fa255e; /* Orange and pink text color in input boxes */
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.operation-box {
+    background-color: #f8e5e5; /* Light yellow background color for buttons */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fa255e; /* Orange and pink buttons with white text */
+    color: #fff; /* White text color on buttons */
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #e35050; /* Slightly darker buttons on hover */
+}
+
+.result-box {
+    background-color: #f8e5e5; /* Light yellow background for result box */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ff6b6b; /* Orange and pink text color in result box */
+    width: 400px; /* Increased width for result box */
+    margin: 20px auto; /* Center the result box */
+    font-size: 48px; /* Larger font size for result */
+}
+
+p {
+    font-size: 24px;
+    margin: 0; /* Remove margin inside result box */
+}
