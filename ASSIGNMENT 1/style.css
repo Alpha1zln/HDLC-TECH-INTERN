@@ -1,45 +1,44 @@
+/* Your CSS styles go here */
 body {
-    background-color: #f6f6f6;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #c3e6cb; /* Light green background color */
+    font-size: 18px; /* Increased font size by 1 */
 }
 
 header {
     background-color: #4CAF50;
     text-align: center;
     padding: 20px 0;
-}
-
-header h1 {
     color: #fff;
+    font-size: 24px; /* Increased font size by 1 */
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4CAF50; /* Dark green border */
     border-radius: 10px;
-    padding: 20px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: #c3e6cb; /* Light green background color */
 }
 
-.container::before {
-    content: "";
-    border-right: 2px solid #ccc;
-    height: 100%;
-    margin-right: 20px;
-}
-
-.left-section, .right-section {
+.left-half, .right-half {
     flex: 1;
+    padding: 20px;
+    background-color: #c3e6cb; /* Light green background color */
 }
 
-.left-section h2, .right-section h2 {
-    font-size: 24px;
-    color: #333;
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 label {
@@ -54,29 +53,30 @@ input[type="text"], select, textarea {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 16px;
-    color: #333;
 }
 
-input[type="text"]::placeholder, textarea::placeholder {
-    color: #999;
+/* Equalize the width of input boxes */
+input[type="text"], select {
+    width: 100%;
 }
 
-.checkbox-options {
-    display: none;
+/* Adjust the width of the multiple select box */
+select[multiple] {
+    height: 100px; /* Adjust as needed */
 }
 
+/* Adjust the submit button size */
 .submit-button {
     display: block;
-    width: 100%;
-    padding: 15px 0;
+    width: 50%; /* Reduced button width */
+    padding: 10px 0;
     background-color: #4CAF50;
     color: #fff;
     font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 .submit-button:hover {
