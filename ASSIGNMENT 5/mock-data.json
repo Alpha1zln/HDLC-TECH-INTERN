@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "fullName": "Janardan",
+    "address": "3 vasai road",
+    "phoneNumber": "9624 45 7516",
+    "email": "jana.ultron@email.com"
+  },
+  {
+    "id": 2,
+    "fullName": "Jeva wats",
+    "address": "4 town hall",
+    "phoneNumber": "9565 45 7516",
+    "email": "jeva.wats@email.com"
+  },
+  {
+    "id": 3,
+    "fullName": "Tony First",
+    "address": "11 loyala road",
+    "phoneNumber": "7884 92 7516",
+    "email": "tony.first@email.com"
+  },
+  {
+    "id": 4,
+    "fullName": "Jaswant kumar",
+    "address": "33 milton road",
+    "phoneNumber": "9624 45 4111",
+    "email": "jaswant.kr@email.com"
+  },
+  {
+    "id": 5,
+    "fullName": "Raj Eshwar",
+    "address": "99 blue hill",
+    "phoneNumber": "9624 56 7516",
+    "email": "raj.eshwar@email.com"
+  }
+]
